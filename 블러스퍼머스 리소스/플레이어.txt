@@ -1,0 +1,151 @@
+사다리타기 : penintent_ladder_up_from_ground -> penintent_ladder_climb_loop_anim
+사다리에서 내려오기 : penitent_ladder_sliding
+사다리에서 바닥착지 : penitent_ladder_down_from_ground_anim
+
+공중에서 착지 : penintent_standing_up
+달리기 시작 : penintent_start_run_anim
+달리기 멈추기 : penintent_stop_run_anim
+달리는중:  penitent_running_anim , penitent_running_dust_anim
+
+
+위쪽공격 : penitent_upward_attack_clamped_anim
+
+
+앉기 : penitent_crouch_anim
+앉기공격 슬래쉬 : penitent_crouch_slashes_anim
+                      penitent_crouch_slashes_lvl2
+앉기에서 일어나기 : penitent_crouch_up_anim
+앉아서 공격 : penitent_crouchslash_noslashes_anim
+
+앞으로 점프 :  penitent_jum_forward_anim
+그냥 점프 : penitent_jump_anim
+점프공격 : penitent_jumping_attack_noslashes
+ penitent_jumping_attack_slasheslvl1
+점프 위 공격 : penitent_upward_attack_jump
+  penitent_upward_attack_slash_lvl1
+jumpoff?점프착지 ? : penitent_jumpoff_new
+점프 왼오른 공격 : penitent_spinningAttack
+점프아래공격시작 : penitent_verticalattack_start_anim
+점프 아래공격 : penitent_verticalattack_falling_anim
+점프 아래공격후 땅에서기 : penitent_verticalattack_landing
+ penitent_verticalattack_landing_effects_anim #516076
+penitent_verticalattack_landing_effects_anim
+
+
+무릎꿇기? : penitent_kneeled
+penitent_start_dodge_dust_anim
+멈출때 먼지 : penitent_stop_dodge_dust_anim
+
+달리면서 회피 : penitent_start_to_run_from_dodge_anim
+
+회피(shift) : penitent_dodge_anim
+회피공격 :  penitent_dodge_attack_anim
+lv2,lv3잇음
+
+공중에서 떨어질때 무한 : penitent_falling_loop_anim
+대가리로 떨어질때?  : penitent_falling_ahead_anim 1
+떨어져 죽엇을때 : penitent_falling_over_anim
+
+
+누워서 일어날때 모션 : penitent_getting_up_anim
+
+벽끝 집엇을때 : penitent_climbledge_reviewed
+벽매달리기? :  penitent_hangonledge_anim
+벽에서 떨어졋을때 : penitent_hardlanding_rocks_anim
+벽에서 떨어졋을때 효과 : penitent_hardlanding_effects
+벽에서 칼꼽기? penitent_wallclimbing_contact_anim
+penitent_wall_climbing_dust_vanishing
+penitent_wallclimbing_idle
+칼꼽고 점프 : penitent_wallclimbing_jump
+penitent_wallclimbing_spark_effect
+칼꼽고 그대로 놓기 : penitent_wallclimbing_unhang_anim
+
+
+hp먹을때 : penitent_healthpotion_consuming_anim
+hp먹을때아우라 : penitent_healthpotion_consuming_aura_anim
+
+리스폰중 : penitent_respawning_anim
+              penitent_respawning_anim_querubs
+penitent_respawning_hw
+penitent_risingFromFallen_anim
+
+
+패링?  : penitent_guardslide_anim
+          penitent_guardSlide_back_to_idle
+패링스파크 : penitent_guardslide_sparks_anim
+패링카운터 : penitent_parry_counter_v2_anim
+                 penitent_parry_counterv2_old_anim
+패링실패 : penitent_parry_failed
+패링성공 : penitent_parry_success_animv3
+패링성공먼지 :penitent_parrysuccess_dust_effect_anim
+
+
+
+공격콤보 1 : penitent_attack_combo_1
+공격 스파크1 : penitent_attack_spark_1_anim
+공격 스파크1_revision? : penitent_attack_spark_1_revision_anim
+                             :penitent_attack_spark_2_revision_anim
+                             :penitent_attack_spark_3_revision_anim
+
+공격콤보 4 ? 뭔지몰겟다 : penitent_attack_combo_4
+penitent_three_hits_attack_combo_no_slashes
+던져짐 ? penitent_throwback_anim
+penitent_throwback_ground_contact_dust_anim
+
+
+=====상호작용======
+문 들어갈때 : penitent_crossing_opendoor_out_anim
+큰 문 열때 : penitent_open_bigdoor_unlocked_anim
+큰 문 열때 열쇠로 : penitent_open_bigdoor_usingkey_anim
+작은 문 열때 : penitent_open_smalldoor_unlocked_anim
+작은 문 열때 열쇠로 : penitent_open_smalldoor_usingkey_anim
+
+텔레포트 문에서 나올때 : penitent_crossing_teleportVortex_in
+텔레포트 문으로 들어갈때 : penitent_crossing_teleportVortex_out
+상자 열기 :penintet_open_wooden_chest_anim
+상자열기 더잇음
+
+
+
+
+
+
+
+
+피 죽음 : death_anim_blood
+떨여저서 죽음 : death_by_fall_anim
+죽음 타이틀: death-sreen-title
+죽은 영혼볼 : collectable_object_anim
+confessor-area-screen-title
+
+-----------
+쿨파 시스템 : penitence-system-spritesheet
+
+sdf? 클자폰트인가 : Oswald Bold SDF Atlas
+한글 :  NeoDunggeunmo_korean_cut , NeoDunggeunmo_korean_cutPro Atlas
+
+
+레버?
+penitent_pettingNemoNoDog
+가만히잇을때? penitent_waitingModeBloodTears
+왼쪽위 ':PlayerPortrait_activePrayer
+    hud-pe02-life-hits
+
+인벤토리inventory
+=====================
+
+--isidora 무친년
+
+--보스피에타 pieta
+스파이크 맞아서 죽기player_dead_by_spikes_anim
+
+
+--pontiff 빨간얼굴
+
+
+-- quirce불
+
+
+-- crisanta
+
+잡 - crosscrawler_death 여자석상
