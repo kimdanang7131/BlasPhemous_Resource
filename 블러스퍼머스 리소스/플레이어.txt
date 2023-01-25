@@ -109,7 +109,9 @@ penitent_throwback_ground_contact_dust_anim
 
 
 
-
+레버?
+penitent_pettingNemoNoDog
+가만히잇을때? penitent_waitingModeBloodTears
 
 
 피 죽음 : death_anim_blood
@@ -118,6 +120,9 @@ penitent_throwback_ground_contact_dust_anim
 죽은 영혼볼 : collectable_object_anim
 confessor-area-screen-title
 
+
+======================stading까지 =========
+
 -----------
 쿨파 시스템 : penitence-system-spritesheet
 
@@ -125,9 +130,6 @@ sdf? 클자폰트인가 : Oswald Bold SDF Atlas
 한글 :  NeoDunggeunmo_korean_cut , NeoDunggeunmo_korean_cutPro Atlas
 
 
-레버?
-penitent_pettingNemoNoDog
-가만히잇을때? penitent_waitingModeBloodTears
 왼쪽위 ':PlayerPortrait_activePrayer
     hud-pe02-life-hits
 
